@@ -2,11 +2,11 @@
 
 ## Access its ready Plugins here: 
 
-### [Traffic Light Camera Lane 1](https://sparkscratch-p.github.io/smart-traffic-junction/cam/V1)
+### [Traffic Light Camera Lane 1](https://swayamswarupgiri.github.io/AI-smart-traffic-control-system/cam/V1)
 
-### [Traffic Light Camera Lane 2](https://sparkscratch-p.github.io/smart-traffic-junction/cam/V2)
+### [Traffic Light Camera Lane 2](https://swayamswarupgiri.github.io/smart-traffic-junction/cam/V2)
 
-### [Public Mobile Application](https://sparkscratch-p.github.io/smart-traffic-junction/app/index.html)
+### [Public Mobile Application](https://swayamswarupgiri.github.io/smart-traffic-junction/app/index.html)
 
 ## Features of the Traffic Light System Resembling a Real-World Traffic Light at a Crossing
 
