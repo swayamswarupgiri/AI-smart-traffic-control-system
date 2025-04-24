@@ -104,3 +104,75 @@
 ---
 
 This system effectively emulates a modern, real-world traffic light at an intersection crossing. Its advanced features prioritize safety, efficiency, and adaptability, ensuring smooth traffic flow and pedestrian convenience.
+** Smart AI-Powered Traffic Signal System for Emergency Management and Traffic Optimization
+** System Overview
+Our project introduces a smart traffic management system that integrates ESP32 microcontrollers, AI-powered camera modules, and IoT infrastructure (Blynk IoT Core) to dynamically control traffic signals in real-time. This system is especially optimized for emergency vehicle prioritization (Green Corridor) and city-wide traffic analysis.
+
+** Key Components and Workflow
+ESP32 Microcontroller Unit (Installed in Traffic Lights):
+
+Acts as the brain of each signal point.
+
+Receives data from the camera module.
+
+Processes commands received from the Blynk IoT core.
+
+Controls the actual red, yellow, and green lights based on AI inference and IoT data.
+
+Executes pre-defined logic to optimize traffic flow and prioritize emergency vehicles.
+
+AI-Based Camera Module (Edge AI Vision):
+
+Programmed using JavaScript and TensorFlow.js.
+
+Uses a YOLOv5 model to detect objects such as:
+
+Cars
+
+Emergency vehicles (ambulances, fire trucks, police)
+
+Traffic congestion levels
+
+Sends detection results in real-time to Blynk Online Database via secure cloud integration.
+
+Blynk IoT Core (Cloud Processing and Data Hub):
+
+Acts as the centralized command center.
+
+Aggregates data from all camera modules.
+
+Runs logic scripts or forwards data to ESP32 units to act accordingly.
+
+Helps in syncing signals city-wide to improve traffic flow and reduce jams.
+
+Online Control Panel (Web + App Interface):
+
+Developed using Turbowarp (for visual logic) and MIT App Inventor.
+
+Provides:
+
+Real-time dashboard of all city signals.
+
+Manual override and emergency trigger option.
+
+GPS-based map showing traffic data and congestion levels.
+
+** Emergency Trigger: Green Corridor
+In case of an emergency, the app user (e.g., ambulance driver or command center operator) can activate an emergency trigger via the app.
+
+The system identifies the current location and route of the emergency vehicle.
+
+It synchronizes and turns all upcoming traffic lights to green, creating a Green Corridor.
+
+This ensures zero halts, enabling emergency vehicles to reach their destination quickly and safely.
+
+** Advantages
+Reduced traffic congestion using real-time AI analytics.
+
+Automated emergency routing without human intervention.
+
+Energy-efficient and scalable system.
+
+City-wide signal synchronization using cloud-based logic.
+
+User-friendly interface for traffic control units and emergency services
